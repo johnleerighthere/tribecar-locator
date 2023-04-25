@@ -26,9 +26,9 @@ driver.get("https://tribecar.com/login")
 
 # key in username, password and submit
 username = driver.find_element(By.ID, "username")
-username.send_keys("your_email_name@gmail.com")
+username.send_keys("youremail@email.com")
 password = driver.find_element(By.ID, "password")
-password.send_keys("superduperhardtocrackpassword")
+password.send_keys("mysuperduperhardtocrackpassword")
 driver.find_element(By.ID, "_submit").click()
 
 # find date 21 days from today
@@ -88,7 +88,7 @@ while not my_element:
     # elem = WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "margin-bottom")))
     # if elem:
     #     elem.click()
-    time.sleep(1)
+    time.sleep(1.3)
     loadingbutton = driver.find_element(By.CLASS_NAME, "margin-bottom")
     print(loadingbutton.is_displayed())
     if loadingbutton.is_displayed():

@@ -12,7 +12,7 @@ import time
 start_time = time.time()
 chrome_options = Options()
 
-# detach means visible chrome is visible
+# detach means chrome is visible
 chrome_options.add_experimental_option("detach", True)
 
 # to make chrome invisible, use headless

@@ -1,4 +1,5 @@
 # Tribecar Locater
+# Tribecar no longer allows webscrapping on many of it's pages, please read the file on https://www.tribecar.com/robots.txt before scrapping.
 
 Tribecar Locater is python app that will traverse through tribecar and churn out all the phv cars and locations in an excelsheet.
 
@@ -20,8 +21,7 @@ each car.
 
 1. Ensure system have python3 and do a pip install
 2. Ensure system have chrome installed
-
-After that, run program directly from compiler, I use a visual studio code.
+3. Install requirements
 
 ```bash
 pip3 install -r requirement.txt

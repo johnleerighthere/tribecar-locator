@@ -1,5 +1,5 @@
 # Tribecar Locater
-# Tribecar no longer allows webscrapping on many of it's pages, please read the file on https://www.tribecar.com/robots.txt before scrapping.
+# Update: Tribecar no longer allows webscrapping on many of it's pages, please read the file on https://www.tribecar.com/robots.txt before scrapping.
 
 Tribecar Locater is python app that will traverse through tribecar and churn out all the phv cars and locations in an excelsheet.
 
